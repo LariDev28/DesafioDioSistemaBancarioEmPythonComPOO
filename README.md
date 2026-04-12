@@ -58,6 +58,18 @@ O sistema permite:
 
 📋 Menu interativo via terminal
 
+🧠 Explicação da Arquitetura
+
+A classe Conta representa a base do sistema, sendo responsável pelas operações essenciais como depósito e saque, além de manter o saldo e o histórico de transações.
+
+A classe ContaCorrente, que herda de Conta, implementa regras específicas de negócio, como limite de valor por saque e quantidade máxima de saques diários, demonstrando o uso de herança e polimorfismo.
+
+O controle das transações foi modelado por meio de uma classe abstrata Transacao, que define um contrato para operações financeiras. A partir dela, foram implementadas as classes Saque e Deposito, responsáveis por executar e registrar cada operação, promovendo maior organização e flexibilidade no sistema.
+
+O Historico armazena todas as transações realizadas, incluindo tipo, valor e data, permitindo a geração de extratos detalhados.
+
+Já a classe Cliente, juntamente com sua especialização PessoaFisica, gerencia os dados dos usuários e suas contas, permitindo o relacionamento entre cliente e múltiplas contas.
+
 🛠️ Tecnologias Utilizadas
 
 Python
