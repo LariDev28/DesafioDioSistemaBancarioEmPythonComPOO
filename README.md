@@ -8,11 +8,11 @@ Desafio da DIO (Digital Innovation One) para desenvolver uma nova versão do sis
 
 Esta versão representa a evolução das implementações anteriores, incorporando:
 
-Uso de classes e objetos
+Estrutura baseada em POO
 
 Melhor organização e reutilização de código
 
-Separação de responsabilidades
+Uso de classes abstratas para transações
 
 Maior clareza e manutenção do sistema
 
@@ -20,7 +20,7 @@ Maior clareza e manutenção do sistema
 
 Aplicar conceitos de Programação Orientada a Objetos (POO)
 
-Estruturar melhor o código em Python
+Estruturar melhor o código 
 
 Simular um sistema bancário mais próximo do mundo real
 
@@ -30,13 +30,15 @@ Evoluir de uma abordagem procedural para orientada a objetos
 
 Classes e objetos
 
-Encapsulamento
+Herança (ContaCorrente → Conta)
 
-Métodos e atributos
+Encapsulamento (uso de atributos privados)
 
-Reutilização de código
+Abstração com classes abstratas (Transacao)
 
-Organização modular
+Polimorfismo (Saque e Deposito)
+
+Separação de responsabilidades
 
 ⚙️ Funcionalidades
 
@@ -53,6 +55,8 @@ O sistema permite:
 📄 Extrato de transações
 
 🔄 Gerenciamento de contas e usuários
+
+📋 Menu interativo via terminal
 
 🛠️ Tecnologias Utilizadas
 
@@ -76,17 +80,21 @@ Execute o programa: python sistema_bancario.py
 
 💻 Exemplo de Uso
 
-[1] Criar cliente
+Bem-vindo(a) ao Banco Python!
 
-[2] Criar conta
+[d] Depositar
 
-[3] Depositar
+[s] Sacar
 
-[4] Sacar
+[e] Extrato
 
-[5] Extrato
+[nc] Nova Conta
 
-[0] Sair
+[lc] Listar Contas
+
+[nu] Novo Usuário
+
+[q] Sair
 
 📚 Aprendizados
 
@@ -108,7 +116,9 @@ Sistema de autenticação
 
 API REST para operações bancárias
 
+Suporte a múltiplas contas por cliente
+
 📌 Conclusão
 
-Este projeto demonstra a evolução no seu desenvolvimento, aplicando conceitos fundamentais de POO para criar uma solução mais organizada, escalável e mais próxima de aplicações reais.
+Este projeto este projeto mostra como a POO e uma boa modelagem transformam um sistema simples em uma aplicação robusta. Foi uma ótima experiência sair de um script básico para uma estrutura completa em POO.
 
