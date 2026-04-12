@@ -83,8 +83,8 @@ Execute o programa: python sistema_bancario.py
 [3] Depositar
 
 [4] Sacar
-[
-5] Extrato
+
+[5] Extrato
 
 [0] Sair
 
