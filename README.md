@@ -58,6 +58,8 @@ O sistema permite:
 
 Python
 
+VSCode
+
 🚀 Como Executar
 
 🔹 Pré-requisitos
