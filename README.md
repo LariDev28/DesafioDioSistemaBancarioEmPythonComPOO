@@ -40,6 +40,16 @@ Polimorfismo (Saque e Deposito)
 
 Separação de responsabilidades
 
+🏗️ Arquitetura do Sistema
+
+Nesta versão final, o projeto deixou de ser um conjunto de funções para se tornar um sistema inteligente. Apliquei os pilares da POO para dar 'vida' aos componentes do banco. Agora a aplicação não apenas processa dados, ela modela o mundo real: clientes, contas e transações interagem através de contratos inteligentes, garantindo que o sistema seja modular, escalável e extremamente seguro.
+
+Modelagem de Domínio: Utilizei Abstração e Herança para criar entidades como PessoaFisica e ContaCorrente, reaproveitando lógica e definindo comportamentos específicos para cada perfil.
+
+Polimorfismo em Ação: Através de uma interface comum de Transacao, operações de Saque e Depósito seguem o mesmo protocolo, mas executam regras distintas, tornando o código elegante e fácil de expandir.
+
+Encapsulamento Estratégico: Protegi a integridade financeira do sistema usando propriedades privadas e métodos de acesso, garantindo que o saldo e o histórico só sejam alterados através de fluxos validados.
+
 ⚙️ Funcionalidades
 
 O sistema permite:
@@ -132,5 +142,5 @@ Suporte a múltiplas contas por cliente
 
 📌 Conclusão
 
-Este projeto este projeto mostra como a POO e uma boa modelagem transformam um sistema simples em uma aplicação robusta. Foi uma ótima experiência sair de um script básico para uma estrutura completa em POO.
+Este projeto mostra como a POO e uma boa modelagem transformam um sistema simples em uma aplicação robusta. Foi uma ótima experiência sair de um script básico para uma estrutura completa em POO.
 
